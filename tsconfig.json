@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "outDir": "./public/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react",
+        "typeRoots": [
+                    "node_modules/@types"
+                ]
+    },
+    "exclude": [
+        "node_modules/lodash.foreach"
+    ],
+    "include": [
+        "./app/**/*.ts"
+    ],
+    "files": ["./app/main.ts"]
+}
